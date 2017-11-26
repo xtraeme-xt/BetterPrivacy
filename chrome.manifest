@@ -1,0 +1,40 @@
+content	bprivacy	content/
+
+locale  bprivacy  da       locale/da/
+locale  bprivacy  da-DK    locale/da/
+locale  bprivacy  de       locale/de/
+locale  bprivacy  de-DE    locale/de/
+locale  bprivacy  en       locale/en-US/
+locale  bprivacy  en-GB    locale/en-US/
+locale  bprivacy  en-US    locale/en-US/
+locale  bprivacy  es-AR    locale/es-AR/
+locale  bprivacy  es-ES    locale/es-ES/
+locale  bprivacy  fr       locale/fr/
+locale  bprivacy  fr-FR    locale/fr/
+locale  bprivacy  nl       locale/nl/
+locale  bprivacy  nl-NL    locale/nl/
+locale  bprivacy  pt-BR    locale/pt-BR/
+locale  bprivacy  ru       locale/ru/
+locale  bprivacy  ru-RU    locale/ru/
+locale  bprivacy  sv-SE    locale/sv-SE/
+locale  bprivacy  tr       locale/tr-TR/
+locale  bprivacy  tr-TR    locale/tr-TR/
+locale  bprivacy  uk       locale/uk/
+locale  bprivacy  vi       locale/vi/
+locale  bprivacy  zh-CN    locale/zh-CN/
+locale  bprivacy  zh-TW    locale/zh-TW/
+
+
+skin	bprivacy	classic	skin/
+
+overlay	chrome://navigator/content/navigator.xul chrome://bprivacy/content/bprivacyoverlay.xul
+overlay  chrome://communicator/content/pref/pref-security.xul chrome://bprivacy/content/bprivacysanitizer.xul
+overlay  chrome://communicator/content/sanitize.xul	chrome://bprivacy/content/bprivacysanitizer.xul
+
+overlay	chrome://browser/content/browser.xul chrome://bprivacy/content/bprivacyoverlay.xul
+overlay  chrome://browser/content/preferences/sanitize.xul	chrome://bprivacy/content/bprivacysanitizer.xul
+overlay  chrome://browser/content/sanitize.xul	chrome://bprivacy/content/bprivacysanitizer.xul
+
+overlay	chrome://mozapps/content/extensions/extensions.xul 	chrome://bprivacy/content/bprivacyextovl.xul
+
+style	chrome://global/content/customizeToolbar.xul	chrome://bprivacy/skin/BetterPrivacyButton.css

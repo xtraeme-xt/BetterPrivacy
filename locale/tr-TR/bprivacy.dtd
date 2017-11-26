@@ -1,0 +1,76 @@
+<!ENTITY PrefTitle "BetterPrivacy">
+<!ENTITY LSOcaption "Flash Çerezler {LSO/SüperÇerezler): Flash eklentisi aracılığıyla bilgisayarınıza süresiz olarak yerleştirilen bilgi parçacıkları">
+<!ENTITY DOMcaption "Dom Deposu (SüperÇerezler): Yüksek boyutlu veri depolamaya izin verir. Veri aktarımı bir alan adıyla sınırlandırılmamıştır">
+<!ENTITY FlashAppFolder "Flash-Veri Klasörü:">
+<!ENTITY SelectFlashFolder "Dizini Seç">
+<!ENTITY SearchFlashFolder "Dizini Tara">
+<!ENTITY LSOViewDescription "Sil yada LSO'ları koru (Koruma otomatik silimden korur ama LSO kaynağı tarafından silinmesini engelleyemez!)">
+<!ENTITY TreeFolderCaption "Kaynak">
+<!ENTITY TreeFileCaption "İsim">
+<!ENTITY TreeSizeCaption "Boyut">
+<!ENTITY TreeCreatedCaption "Oluşturuldu">
+<!ENTITY TreeModifiedCaption "Değiştirilme">
+<!ENTITY TreeProtectCaption "Durum">
+<!ENTITY FullPath "Tam Yol:">
+<!ENTITY ButtonProtect "Otomatik LSO siliminden koru">
+<!ENTITY ButtonEditPL "Koruma listesini düzenle">
+<!ENTITY ButtonDelete "Sil">
+<!ENTITY ButtonDeleteAll "Bütün LSO'ları sil">
+<!ENTITY ButtonReload "Yenile">
+<!ENTITY Removed "Otomatik silinen LSO'lar">
+<!ENTITY Session "Oturum:">
+<!ENTITY Cumulative "Toplam:">
+<!ENTITY LSODeletionCaption "LSO'ları silmek için seçeneklerden birini seçin">
+<!ENTITY DelLSOOnExit "Firefoxdan çıkarken flash çerezleri sil">
+<!ENTITY DelLSONoDialog "LSO öğesini Firefox 'Yakın Geçmişi Temizle' menüsüne ve ayarlarına ekle">
+<!ENTITY DelLSOOnStart "Başlangıçta flash çerezleri sil">
+<!ENTITY AskOnExit "Her zaman sor">
+<!ENTITY AutoDelInterval "Zamanlayıcıyla flash çerezleri sil">
+<!ENTITY TimeInterval "Zaman aralığı:">
+<!ENTITY AutoDelDC "Flashplayerin yanında gelen çerezide sil.Flashplayerin ayarlarını (ör. güncelleme aralığı) saklar.Tabi ziyaret edilen flash tabanlı siteleride!">
+<!ENTITY AutoDelIntervalDelay "Ek zaman tanı">
+<!ENTITY AutoDelDirs "Çerez siliminde boş çerez klasörünüde sil">
+<!ENTITY NotifyOnNewLSO "Yeni LSO geldiğinde uyar">
+<!ENTITY NotifyDuration "Mesajı otomatik sil [s]">
+<!ENTITY TrackLSOs "Yeni LSO'ların adlarını göster">
+<!ENTITY TTTNotifyDuration "0=Hiçbir zaman otomatik silme">
+<!ENTITY DisableDOM "DOMDeposunu Kapat">
+<!ENTITY ClearDOM "DOMDeposu dosyalarını oto-sil">
+<!ENTITY PingDecription "Click-Pings sunucunun kullanıcı hareketlerini izlemesine izin verir">
+<!ENTITY DisablePing "Ping İzlemeyi Kapat">
+<!ENTITY Tab1Title "LSO Yöneticisi">
+<!ENTITY Tab2Title "Ayarlar &amp; Yardım">
+<!ENTITY ListAdd "Ekle">
+<!ENTITY ListEdit "Düzenle">
+<!ENTITY ListRemove "Sil">
+<!ENTITY ListFolder "Dizin">
+<!ENTITY alwaysReScan "Taşınabilir Mod">
+<!ENTITY Ok "Tamam">
+<!ENTITY seconds "saniye">
+<!ENTITY minutes "dakika">
+<!ENTITY hours "saat">
+<!ENTITY days "gün">
+<!ENTITY exitstatus "Firefox kapanacak.Lütfen BetterPrivcy LSO çerezleri için sabit diskinizi tararken bekleyin...">
+<!ENTITY LSODelKey "LSO silme kısayolu:">
+<!ENTITY propagate "BetterPrivacy">
+<!ENTITY RestartRequired "(değişiklik için Firefoxu yeniden başlat)">
+<!ENTITY Help "Yardım">
+<!ENTITY TTTalwaysReScan "Her Firefox başlangıçında Flash veri klasörünü ara ve ilgili klasör yolunu kullan">
+<!ENTITY TTTButtonDeleteAll "Korunan çerezleri silmek için izin istiyor">
+<!ENTITY TTTAutoDelDC "Varsayılan çerez ismi settings.sol,\Flash Player\macromedia.com\support\flashplayer\sys\ klasöründe bulunur">
+<!ENTITY TTTDisableDOM "DOM deposunu tamamen yasakla">
+<!ENTITY TTTClearDOM "Firefox başlangıç ve çıkışında DOM Deposu dosyasını silmeyi dener">
+<!ENTITY TTTTrackLSOs "Yeni LSO'ları değiştirilme tarihinden saptar (Oluşturma tarihi Firefox için mevcut değil)">
+<!ENTITY TTTButtonReload "LSO Tablosunu yenile">
+<!ENTITY TTTLSODelKey "Tuşu değiştirmek için eklentiyi about:configden extensions.bprivacy.keymodifiers bölümünden değiştirmeniz gerekir">
+<!ENTITY TTTpropagate "Gizliliği desteklemek için Firefox useragent.extra özellğini kullanın">
+<!ENTITY help.key "h">
+<!ENTITY proteditor "Better Privacy LSO koruma listesi düzenleyicisi">
+<!ENTITY ClickPing "Click-Ping">
+<!ENTITY TTTAutoProtectSub "If you protect a LSO, this automatically excludes sub-folder LSO's  from deletion (e.g. to protect any LSO's of the same domain -or- to protect any settings LSO's, regardless of their domain)">
+<!ENTITY AutoProtectSub "Auto protect LSO sub-folders">
+<!ENTITY AutoEscape "Auto escape metacharacters">
+<!ENTITY TTTManageLSOs "If you clear your cookie history in Firefox 5+, LSO's will be deleted as well, regardless of their protection status in BetterPrivacy">
+<!ENTITY ManageLSOs "Prevent the Firefox 'Clear Recent History' functions from handling LSO's as usual cookies">
+<!ENTITY ReEnableWarnings "Click here to re-enable warnings">
+

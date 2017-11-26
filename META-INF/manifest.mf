@@ -1,0 +1,267 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pIpKOrEivdLOHFS/03VGGQ==
+SHA1-Digest: cFSMrgXTu/GCLaCAqygh18usjA4=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tLBLzQ/mzbTcLRTDNWbuKw==
+SHA1-Digest: VuT52Mp7ye5rdcKliE4V9SUdd/s=
+
+Name: content/BetterPrivacy.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0sC94TEmAbjcfCfu4IYIdA==
+SHA1-Digest: UDiXWQPLCuIeVEiATMIRvqPUyH8=
+
+Name: content/BetterPrivacyUpdated.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cf3CT29Mj+o5vddzENZDYw==
+SHA1-Digest: KZ05fDxT0/LtYpO58Z5QOPt+qQY=
+
+Name: content/bprivacy.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FrfIkD6yGiVZX7bKaAtN7Q==
+SHA1-Digest: Au1x6nwpsmhfwAMIw+EuxiRV1nY=
+
+Name: content/bprivacyeditpl.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: h5f3eQdolXfge7AIzxhZHA==
+SHA1-Digest: PBhEGFR/VPz9w13vHd1kAl8Odos=
+
+Name: content/bprivacyextovl.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uX2dCRXRS0SwFMA0Mwt6lg==
+SHA1-Digest: ahOS5G0sPAsmd4FAwDinAZYAm84=
+
+Name: content/bprivacyopt.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2RPyd0qX1ocxj0myDKKLog==
+SHA1-Digest: m4ZSkJ6V307+xwDRbQ+wB29/YLw=
+
+Name: content/bprivacyopt.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nMtEU1iacG+V0SWgpgfhjA==
+SHA1-Digest: 2F145HJPoa7XmCgkpq8tiiS3Wz0=
+
+Name: content/bprivacyoverlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +cbN6ybqHOx8vHM1ELGZHg==
+SHA1-Digest: pE6q4SnsbF3Gs1Jg3sVVMcfKVuE=
+
+Name: content/bprivacyprogress.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eVvRJzB1s3VcJZuGrcN8Bg==
+SHA1-Digest: thOgGR5JKMUJP3bHQddDBn29Xik=
+
+Name: content/bprivacysanitizer.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OypAORYz/YH2eRW+/jIgYA==
+SHA1-Digest: YGZgodBziv5lwtfYrKgfUW2iUSo=
+
+Name: content/bprivacysanitizer.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: i/oto3kCQfnyXo68v7k4TQ==
+SHA1-Digest: NTKiF8SG7Xz4TZZ02nUe7r/zW04=
+
+Name: content/bprivacyutils.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yFkVxXxtAxOhgBSQc4GsWQ==
+SHA1-Digest: FIb8vhHeYOGjN6r07woJlS6IMIQ=
+
+Name: content/LICENSE
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Yr1RHVR2f59LWjyKOjTYhw==
+SHA1-Digest: 7juK9OIteiTK8DACyrlRrjhkWoQ=
+
+Name: content/logo.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Kbx9hGy473d18jnWc5CD2A==
+SHA1-Digest: aZuXERa7TMtnS963paOuvLQ/CVM=
+
+Name: content/pie.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZmDFDwq5E6/YTG/Jlg9yHg==
+SHA1-Digest: nA8Irl9sRwUWToQblgOZH9B13Nc=
+
+Name: defaults/preferences/bprivacyprefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 320R3JAOMi3YLwVqUz3bVQ==
+SHA1-Digest: XBetQQ/LBt1VXJ0GA0+SX+H+yBw=
+
+Name: locale/da/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rAnG+mPqls4l4QFHUMjFrg==
+SHA1-Digest: PqQ0QjPyevj6V72W1f3G4kdwi7k=
+
+Name: locale/da/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2o7yvfX9KeO73vYCiAuqIw==
+SHA1-Digest: enDsuJog7/epBYxQ9NMycK5thAE=
+
+Name: locale/de/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u0cM6OZghoNQtmOfvjdZeA==
+SHA1-Digest: a+sp8E1lYPjiRdhTsmOHWeutI8M=
+
+Name: locale/de/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +uGJKsDnZQmZyttVy7Va0g==
+SHA1-Digest: KP1xH0JZSw2GeCAKfsLMFsoYRIw=
+
+Name: locale/en-US/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1OYjQO7sxPfC7nAzl9YkrA==
+SHA1-Digest: hTD25M6v/D/+KfIfCoGBfiAg1+o=
+
+Name: locale/en-US/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 86l0B+DFE5BckAf5nIY1KA==
+SHA1-Digest: 44pXDPAClWyZZYqP98WhRJaoezc=
+
+Name: locale/es-AR/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: g8XpTuk31m+LkZtJOK6T1g==
+SHA1-Digest: 8ljYio4R/epKJ/bgMVDxhHiY7ms=
+
+Name: locale/es-AR/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3MCohPNvpUAOLXhUQXCQvA==
+SHA1-Digest: 7mD6rP6cGtdzqlrz+fNx/VjB2oc=
+
+Name: locale/es-ES/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: M582+sb8iJ817eWfgLy4yw==
+SHA1-Digest: 6ClXQO9ivAtbrhiYVutCC/y72o8=
+
+Name: locale/es-ES/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: boXCRaf+sxO/Sa2Djlep/A==
+SHA1-Digest: F7VBmJcW1bfHQfBZz3FuX0e38ug=
+
+Name: locale/fr/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3TbavmFSEtVnsOnZnWX0Mw==
+SHA1-Digest: liDB3mMVprYyGvSx0hE+lolEkPI=
+
+Name: locale/fr/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UuANrXuDjs/xrFGPd/jaaA==
+SHA1-Digest: 7xlgfHvIp7jTxjN9d6U2XtYi81I=
+
+Name: locale/he/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +PtTUoDFGU/FIHaBp2eIYA==
+SHA1-Digest: 3bVnih86bQkbL4+Y/+vCNfjpRS0=
+
+Name: locale/he/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /dfYp8jCdRKWQt3DKKzZRQ==
+SHA1-Digest: 6fUZ8LUCeGMM4GCXjKlvYXpDLzA=
+
+Name: locale/nl/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VLHkWyLcrKFwNbEkkBOKWg==
+SHA1-Digest: SLdp3Kc2azveToRZzFST/EA3ct4=
+
+Name: locale/nl/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Rgq8qLFihQbAdkysMphdJQ==
+SHA1-Digest: s7L60dllRsiaJoLbKp5zMmZ1o7k=
+
+Name: locale/pt-BR/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mnvYi7iIRummTAntCsejrw==
+SHA1-Digest: DZW6uWYWZSoq69zL8fa4VrZa3bw=
+
+Name: locale/pt-BR/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rICKYNBV89ucB+stPKLksg==
+SHA1-Digest: okRGhsIliCkKZTj+gEJH+4/8PDk=
+
+Name: locale/ru/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QRKGJL+SwLsbYVK7hiM/RA==
+SHA1-Digest: J4P3vmzulR6NlN3dOKcZePIMpE0=
+
+Name: locale/ru/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7itseSaJ3f557JbEP1RCYA==
+SHA1-Digest: SVlMZBFAYk1FPmsAS472wbEdAa0=
+
+Name: locale/sv-SE/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LrYifTPg3AE+d/HjpI2TuA==
+SHA1-Digest: vFkmtsZxT2B+Q0SrI4RWi7OQ/c0=
+
+Name: locale/sv-SE/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zYTPdClp/0Y9jKJtypm9xw==
+SHA1-Digest: ZlS18DDJq7cmQ0y/PNoZIvAxaY4=
+
+Name: locale/tr-TR/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4VGT5o6ntBYIojat/FuGuA==
+SHA1-Digest: ufS5NRs+bSJI5IOEmWOI9Cr0mTY=
+
+Name: locale/tr-TR/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XtZE0cAzZ+rBfp6hdoexww==
+SHA1-Digest: 8HC8h22fUUPRE5V4E2LiCBaXXIU=
+
+Name: locale/uk/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uoqLXAuhwVqHZp27fOnl7w==
+SHA1-Digest: c5D3qj573iExF5Wy+NLfMGnrzBY=
+
+Name: locale/uk/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: srOT1kIYXetyRwIV5rCVaA==
+SHA1-Digest: jt2iREaKXfrjPDYKz/aWwdT4swY=
+
+Name: locale/vi/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vFsu65Nav0USXecUcj416g==
+SHA1-Digest: grmWAHYUqg2Ipe7NQnCXcUWRJi0=
+
+Name: locale/vi/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yLX7hQ2J6AnpHKW6N3dOEQ==
+SHA1-Digest: 4pKw/WjkLyrs0aevTfSTRF3lx2A=
+
+Name: locale/zh-CN/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tUcuJEwAvroTfWcTtLZirw==
+SHA1-Digest: CJ/krfAQiunFNzgWsDAVeq51Gtw=
+
+Name: locale/zh-CN/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +l7lWwSTDY9Y9Ym9oSDVYw==
+SHA1-Digest: 7Ujcj7AWs3ml1htCQ7A/hng8C5E=
+
+Name: locale/zh-TW/bprivacy.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sUda3wFwKWcO3LiS8fC5Aw==
+SHA1-Digest: 9yR8rNxdDA3IJw05XfGCPVQ2xK4=
+
+Name: locale/zh-TW/bprivacy.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HxVF5G5PKWo0GlarlC66PA==
+SHA1-Digest: kB9mlyWaDAyMSCVHrAFAPsP4Nd8=
+
+Name: skin/BetterPrivacyButton.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /RKDYnhBgETuVfFhxig5jQ==
+SHA1-Digest: RCr+Jpz79l6wApwI0JCd9UagWks=
+
+Name: skin/btn_large.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q5jSYIBwiHHw0hVBl0iCMA==
+SHA1-Digest: 7mlTPo0of0oLGN1f5wk2oDTcKaw=
+
+Name: skin/btn_small.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ohDpXcmC8ZtXajr7kSBp3A==
+SHA1-Digest: GvXGVU04YggiMVT/F/eFsWhL+WY=
+

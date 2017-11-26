@@ -1,0 +1,76 @@
+<!ENTITY PrefTitle "BetterPrivacy">
+<!ENTITY LSOcaption "Cookies Flash (objetos locales compartidos / súpercookies): Conjunto de datos utilizado por un plugin de Flash en carpetas centrales de su computadora, permaneciendo en ella indefinidamente">
+<!ENTITY DOMcaption "Almacenamiento de DOM (súpercookie): Permite almacenar grandes cantidades de información. La transferencia de datos no está limitada a un solo dominio.">
+<!ENTITY FlashAppFolder "Directorio de datos de Flash:">
+<!ENTITY SelectFlashFolder "Seleccionar directorio">
+<!ENTITY SearchFlashFolder "Buscar en el directorio">
+<!ENTITY LSOViewDescription "Quitar o proteger objetos locales compartidos que estén almacenados (la protección previene el borrado automático de BetterPrivacy, ¡pero no el borrado del autor del objeto local compartido!)">
+<!ENTITY TreeFolderCaption "Origen">
+<!ENTITY TreeFileCaption "Nombre">
+<!ENTITY TreeSizeCaption "Tamaño">
+<!ENTITY TreeCreatedCaption "Fecha de creación">
+<!ENTITY TreeModifiedCaption "Fecha de modificación">
+<!ENTITY TreeProtectCaption "Estado">
+<!ENTITY FullPath "Ruta completa:">
+<!ENTITY ButtonProtect "Prevenir borrado automático del objeto local compartido">
+<!ENTITY ButtonEditPL "Editar lista de protección">
+<!ENTITY ButtonDelete "Quitar objeto local compartido">
+<!ENTITY ButtonDeleteAll "Quitar todos los objetos locales compartidos">
+<!ENTITY ButtonReload "Actualizar datos">
+<!ENTITY Removed "Se quitaron los objetos locales compartidos automáticamente">
+<!ENTITY Session "Sesión:">
+<!ENTITY Cumulative "Acumulado:">
+<!ENTITY LSODeletionCaption "Para eliminar los objetos locales compartidos, seleccione alguna de las siguientes opciones">
+<!ENTITY DelLSOOnExit "Eliminar cookies Flash al salir de Mozilla Firefox">
+<!ENTITY DelLSONoDialog "Agregar el elemento Objeto local compartido a los diálogos y opciones de &quot;Eliminar el historial&quot;">
+<!ENTITY DelLSOOnStart "Eliminar cookies Flash al inicio de la aplicación">
+<!ENTITY AskOnExit "Preguntar siempre">
+<!ENTITY AutoDelInterval "Eliminar cookies Flash por temporizador">
+<!ENTITY TimeInterval "Intervalo de tiempo:">
+<!ENTITY AutoDelDC "Eliminar también el cookie por defecto del reproductor Flash. El mismo almacena configuraciones del reproductor Flash (por ejemplo, intervalo de actualización) ¡así como todos los sitios web flash visitados!">
+<!ENTITY AutoDelIntervalDelay "No si se encuentra modificado con el intervalo de tiempo">
+<!ENTITY AutoDelDirs "Al eliminar cookies, también eliminar carpetas vacías de cookies">
+<!ENTITY NotifyOnNewLSO "Notificar si un nuevo objeto local compartido se almacena">
+<!ENTITY NotifyDuration "Quitar el mensaje automáticamente después de [s]">
+<!ENTITY TrackLSOs "Mostrar nombres de nuevos objetos locales compartidos">
+<!ENTITY TTTNotifyDuration "0=Nunca quitar automáticamente">
+<!ENTITY DisableDOM "Deshabilitar almacenamiento de DOM">
+<!ENTITY ClearDOM "Eliminar automáticamente archivo de almacenamiento de DOM">
+<!ENTITY PingDecription "Click-Pings le permite a un servidor seguir fácilmente las acciones del usuario">
+<!ENTITY DisablePing "Deshabilitar Ping Tracking">
+<!ENTITY Tab1Title "Administrador de objetos locales compartidos">
+<!ENTITY Tab2Title "Opciones &amp;Ayuda">
+<!ENTITY ListAdd "Agregar">
+<!ENTITY ListEdit "Editar">
+<!ENTITY ListRemove "Quitar">
+<!ENTITY ListFolder "Carpeta">
+<!ENTITY alwaysReScan "Modo portátil">
+<!ENTITY Ok "Aceptar">
+<!ENTITY seconds "segundos">
+<!ENTITY minutes "minutos">
+<!ENTITY hours "horas">
+<!ENTITY days "días">
+<!ENTITY exitstatus "Mozilla Firefox se cerrará ahora. Por favor, aguarde mientras BetterPrivacy revisa su disco rígido en busca de cookies Flash...">
+<!ENTITY LSODelKey "Atajo de eliminación de objeto local compartido:">
+<!ENTITY propagate "Agregar BetterPrivacy como extra en la cadena de agente de usuario y difundirlo entre usuarios aún desprotegidos">
+<!ENTITY RestartRequired "(los cambios requieren que se reinicie Mozilla Firefox)">
+<!ENTITY Help "Ayuda">
+<!ENTITY TTTalwaysReScan "Buscar carpeta de datos de Flash en cada inicio de Mozilla Firefox y usar ubicaciones de carpetas relacionadas">
+<!ENTITY TTTButtonDeleteAll "Preguntar por permisos para eliminar, también, cookies protegidas">
+<!ENTITY TTTAutoDelDC "La cookie por defecto se llama settings.sol, ubicada en \Flash Player\macromedia.com\support\flashplayer\sys\">
+<!ENTITY TTTDisableDOM "Deshabilitar almacenamiento DOM completamente">
+<!ENTITY TTTClearDOM "Intenta quitar el archivo de almacenamiento DOM al inicio y cierre de Mozilla Firefox">
+<!ENTITY TTTTrackLSOs "Identifica nuevos objetos compartidos por su fecha de modificación (la fecha de creación no se encuentra disponible en Mozilla Firefox)">
+<!ENTITY TTTButtonReload "Recarga la tabla de elementos locales compartidos">
+<!ENTITY TTTLSODelKey "Para cambiar los modificadores principales, es necesario editar extensions.bprivacy.keymodifiers en about:config">
+<!ENTITY TTTpropagate "Difundir las herramientas de privacidad a través de la configuración de useragent.extra de Mozilla Firefox">
+<!ENTITY help.key "y">
+<!ENTITY proteditor "Editor de lista de protección de objetos locales compartidos, de BetterPrivacy">
+<!ENTITY ClickPing "Click-Ping">
+<!ENTITY TTTAutoProtectSub "If you protect a LSO, this automatically excludes sub-folder LSO's  from deletion (e.g. to protect any LSO's of the same domain -or- to protect any settings LSO's, regardless of their domain)">
+<!ENTITY AutoProtectSub "Auto protect LSO sub-folders">
+<!ENTITY AutoEscape "Auto escape metacharacters">
+<!ENTITY TTTManageLSOs "If you clear your cookie history in Firefox 5+, LSO's will be deleted as well, regardless of their protection status in BetterPrivacy">
+<!ENTITY ManageLSOs "Prevent the Firefox 'Clear Recent History' functions from handling LSO's as usual cookies">
+<!ENTITY ReEnableWarnings "Click here to re-enable warnings">
+

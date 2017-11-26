@@ -1,0 +1,76 @@
+<!ENTITY PrefTitle "BetterPrivacy">
+<!ENTITY LSOcaption "Flash Cookies (LSO's/SuperCookies): Фрагменты информации, помещаемые флэш-плагином в центральные директории вашего компьютера, на неопределенный срок">
+<!ENTITY DOMcaption "Хранилище DOM (SuperCookies): Позволяет хранить большие объёмы данных. Передача данных на конкретный домен не ограничена.">
+<!ENTITY FlashAppFolder "Директория flash-приложения:">
+<!ENTITY SelectFlashFolder "Выбрать директорию">
+<!ENTITY SearchFlashFolder "Поиск директории">
+<!ENTITY LSOViewDescription "Удалить или защитить сохраненные LSO' (Защита позволяет избежать удаления плагином, но не владельцем LSO)">
+<!ENTITY TreeFolderCaption "Источник">
+<!ENTITY TreeFileCaption "Имя">
+<!ENTITY TreeSizeCaption "Размер">
+<!ENTITY TreeCreatedCaption "Создан">
+<!ENTITY TreeModifiedCaption "Изменён">
+<!ENTITY TreeProtectCaption "Статус">
+<!ENTITY FullPath "Путь:">
+<!ENTITY ButtonProtect "Запретить автоматическое удаление">
+<!ENTITY ButtonEditPL "Редактировать список протекции">
+<!ENTITY ButtonDelete "Удалить LSO">
+<!ENTITY ButtonDeleteAll "Удалить все">
+<!ENTITY ButtonReload "Обновить">
+<!ENTITY Removed "Автоматически удаленные LSO">
+<!ENTITY Session "Сессия:">
+<!ENTITY Cumulative "Суммарно:">
+<!ENTITY LSODeletionCaption "Для удаления LSO выберите следующие опции">
+<!ENTITY DelLSOOnExit "Удалять flash cookies при закрытии Firefox">
+<!ENTITY DelLSONoDialog "Добавить пункт LSO в меню &quot;Стереть историю&quot; Firefox">
+<!ENTITY DelLSOOnStart "Удалять flash cookies при запуске дополнения">
+<!ENTITY AskOnExit "Спросить">
+<!ENTITY AutoDelInterval "Удалять flash cookies по таймеру">
+<!ENTITY TimeInterval "Интервал:">
+<!ENTITY AutoDelDC "Удалять кукис флэшплеера. Он содержит как настройки плеера (напр. интервал обновления), так и все посещенные флэш сайты">
+<!ENTITY AutoDelIntervalDelay "Не затрагивать модификации данного периода">
+<!ENTITY AutoDelDirs "При удалении файла куки также удалять его пустую директорию">
+<!ENTITY NotifyOnNewLSO "Уведомлять о загрузке нового LSO">
+<!ENTITY NotifyDuration "Уведомление об автоудалении через [s]">
+<!ENTITY TrackLSOs "Отображать имена новых LSO">
+<!ENTITY TTTNotifyDuration "0=Никогда не удалять автоматом">
+<!ENTITY DisableDOM "Отключить хранилище DOM">
+<!ENTITY ClearDOM "Автоудаления файла хранилища">
+<!ENTITY PingDecription "Клик-пинги позволяют серверу легко отслеживать действия пользователя">
+<!ENTITY DisablePing "Отключить пинг-трэкинг">
+<!ENTITY Tab1Title "Менеджер LSO">
+<!ENTITY Tab2Title "Меню и Помощь">
+<!ENTITY ListAdd "Добавить">
+<!ENTITY ListEdit "Изменить">
+<!ENTITY ListRemove "Удалить">
+<!ENTITY ListFolder "Папка">
+<!ENTITY alwaysReScan "Портативный режим">
+<!ENTITY Ok "OK">
+<!ENTITY seconds "секунд">
+<!ENTITY minutes "минут">
+<!ENTITY hours "часов">
+<!ENTITY days "дней">
+<!ENTITY exitstatus "Firefox завершает работу. Ждите пока BetterPrivacy закончит проверку диска на наличие LSO кукис...">
+<!ENTITY LSODelKey "Клавиша быстрого удаления:">
+<!ENTITY propagate "Добавьте BetterPrivacy в специальное поле useragent и помогите узнать о нем другим пользователям">
+<!ENTITY RestartRequired "(требуется перезапуск Firefox)">
+<!ENTITY Help "Помощь">
+<!ENTITY TTTalwaysReScan "Искать папку с флэш данными при каждом старте Firefox, используя относительное расположение директорий">
+<!ENTITY TTTButtonDeleteAll "Спрашивать разрешение на удаление защищенных кук">
+<!ENTITY TTTAutoDelDC "Стандартный куки settings.sol расположен в папке \Flash Player\macromedia.com\support\flashplayer\sys\">
+<!ENTITY TTTDisableDOM "Полностью запретить использование хранилища DOM">
+<!ENTITY TTTClearDOM "Пытаться удалить файл хранилища на старте и закрытии Firefox">
+<!ENTITY TTTTrackLSOs "Распознает новые LSO по времени их модификации (время создания недоступно в Firefox)">
+<!ENTITY TTTButtonReload "Перезагрузка таблицы LSO">
+<!ENTITY TTTLSODelKey "Для смены модификаторов ключей вам придется отредактировать поле extensions.bprivacy.keymodifiers на странице about:config">
+<!ENTITY TTTpropagate "Поддержать распространение хранителей приватности через функцию useragent.extra">
+<!ENTITY help.key "п">
+<!ENTITY proteditor "Редактор списка LSO протекции Better Privacy">
+<!ENTITY ClickPing "Клик-пинг">
+<!ENTITY TTTAutoProtectSub "If you protect a LSO, this automatically excludes sub-folder LSO's  from deletion (e.g. to protect any LSO's of the same domain -or- to protect any settings LSO's, regardless of their domain)">
+<!ENTITY AutoProtectSub "Auto protect LSO sub-folders">
+<!ENTITY AutoEscape "Auto escape metacharacters">
+<!ENTITY TTTManageLSOs "If you clear your cookie history in Firefox 5+, LSO's will be deleted as well, regardless of their protection status in BetterPrivacy">
+<!ENTITY ManageLSOs "Prevent the Firefox 'Clear Recent History' functions from handling LSO's as usual cookies">
+<!ENTITY ReEnableWarnings "Click here to re-enable warnings">
+

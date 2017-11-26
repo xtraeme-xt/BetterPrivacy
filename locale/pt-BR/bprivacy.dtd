@@ -1,0 +1,76 @@
+<!ENTITY PrefTitle "BetterPrivacy">
+<!ENTITY LSOcaption "Cookies Flash (LSO's/SuperCookies): Peças de informação colocadas por um complemento Flash em pastas centrais no seu computador, armazenadas por tempo indeterminado">
+<!ENTITY DOMcaption "Armazenamento DOM (SuperCookies): Permite armazenar grandes quantidades de dados. Os dados transferidos podem não ser de um só domínio.">
+<!ENTITY FlashAppFolder "Pasta de dados Flash:">
+<!ENTITY SelectFlashFolder "Selecionar Pasta">
+<!ENTITY SearchFlashFolder "Buscar Pasta">
+<!ENTITY LSOViewDescription "Remover ou proteger LSOs armazenados (A proteção previne limpeza automática pelo BetterPrivacy mas não pelo proprietário do LSO!)">
+<!ENTITY TreeFolderCaption "Origem">
+<!ENTITY TreeFileCaption "Nome">
+<!ENTITY TreeSizeCaption "Tamanho">
+<!ENTITY TreeCreatedCaption "Criado">
+<!ENTITY TreeModifiedCaption "Modificado">
+<!ENTITY TreeProtectCaption "Estado">
+<!ENTITY FullPath "Caminho completo">
+<!ENTITY ButtonProtect "Prevenir limpeza automática de LSOs">
+<!ENTITY ButtonEditPL "Editar a lista de proteção">
+<!ENTITY ButtonDelete "Remover LSO">
+<!ENTITY ButtonDeleteAll "Remover todos os LSOs">
+<!ENTITY ButtonReload "Atualizar Exibição">
+<!ENTITY Removed "LSOs removidas automaticamente">
+<!ENTITY Session "Seção:">
+<!ENTITY Cumulative "Cumulativo:">
+<!ENTITY LSODeletionCaption "Para apagar LSOs escolha a partir das seguintes opções">
+<!ENTITY DelLSOOnExit "Apagar os cookies Flash ao fechar o Firefox">
+<!ENTITY DelLSONoDialog "Adicionar item LSO à caixa de diálogo 'Limpar Histórico' e configurações do Firefox">
+<!ENTITY DelLSOOnStart "Apagar os cookies Flash ao abrir o aplicativo">
+<!ENTITY AskOnExit "Perguntar sempre">
+<!ENTITY AutoDelInterval "Apagar os cookies Flash regularmente">
+<!ENTITY TimeInterval "Intervalo de tempo:">
+<!ENTITY AutoDelDC "Também eliminar o cookie padrão do Flashplayer. Ele armazena as configurações do Flashplayer (por exemplo, o intervalo de atualização), bem como todas as páginas flash visitadas!">
+<!ENTITY AutoDelIntervalDelay "Não apagar se foi modificado dentro do intervalo de tempo">
+<!ENTITY AutoDelDirs "Ao apagar cookies também eliminar pastas vazias de cookies">
+<!ENTITY NotifyOnNewLSO "Avisar se novos LSOs forem armazenados">
+<!ENTITY NotifyDuration "Remover automaticamente mensagens após [s]">
+<!ENTITY TrackLSOs "Exibir os nomes de nova LSOs">
+<!ENTITY TTTNotifyDuration "0=Nunca remover automaticamente">
+<!ENTITY DisableDOM "Desativar o DOMStorage">
+<!ENTITY ClearDOM "Remover automaticamente arquivos DOMStorage">
+<!ENTITY PingDecription "Cliques-pings permitem um servidor acompanhar facilmente as ações do usuário.">
+<!ENTITY DisablePing "Desativar o Acompanhamento de Pings">
+<!ENTITY Tab1Title "Gerenciador de LSO">
+<!ENTITY Tab2Title "Opções &amp; Ajuda">
+<!ENTITY ListAdd "Acrescentar">
+<!ENTITY ListEdit "Editar">
+<!ENTITY ListRemove "Remover">
+<!ENTITY ListFolder "Pasta">
+<!ENTITY alwaysReScan "Modo Portátil">
+<!ENTITY Ok "Ok">
+<!ENTITY seconds "segundos">
+<!ENTITY minutes "minutos">
+<!ENTITY hours "horas">
+<!ENTITY days "dias">
+<!ENTITY exitstatus "O Firefox irá fechar agora. Por favor aguarde enquanto o BetterPrivacy busca cookies LSO em seu disco rígido...">
+<!ENTITY LSODelKey "Atalho de limpeza de LSO">
+<!ENTITY propagate "Adicionar o BetterPrivacy ao useragent extra e ajudar a torná-lo conhecido para os usuários ainda desprotegidos">
+<!ENTITY RestartRequired "(mudanças exigem que você reinicie o Firefox)">
+<!ENTITY Help "Ajuda">
+<!ENTITY TTTalwaysReScan "Buscar pasta de dados Flash em cada abertura do Firefox e usar localizações de pastas relativas">
+<!ENTITY TTTButtonDeleteAll "Pede permissão para apagar os cookies protegidos">
+<!ENTITY TTTAutoDelDC "O cookie padrão chama-se settings.sol, localizado em \Flash Player\macromedia.com\support\flashplayer\sys\">
+<!ENTITY TTTDisableDOM "Desativa completamente o armazenamento DOM">
+<!ENTITY TTTClearDOM "Tenta remover o arquivo de armazenamento DOM ao iniciar e sair do Firefox">
+<!ENTITY TTTTrackLSOs "Identifica novas LSO's a partir de sua data de modificação (horário de criação não disponíveis no Firefox)">
+<!ENTITY TTTButtonReload "Atualizar a Tabela LSO">
+<!ENTITY TTTLSODelKey "Para alterar os modificadores-chave você precisa editar extensions.bprivacy.keymodifiers em about:config">
+<!ENTITY TTTpropagate "Propagação de suporte de ajudantes de privacidade através do recurso do Firefox useragent.extra">
+<!ENTITY help.key "a">
+<!ENTITY proteditor "Editor de lista de proteção de LSO do Better Privacy">
+<!ENTITY ClickPing "Clique-Ping">
+<!ENTITY TTTAutoProtectSub "If you protect a LSO, this automatically excludes sub-folder LSO's  from deletion (e.g. to protect any LSO's of the same domain -or- to protect any settings LSO's, regardless of their domain)">
+<!ENTITY AutoProtectSub "Auto protect LSO sub-folders">
+<!ENTITY AutoEscape "Auto escape metacharacters">
+<!ENTITY TTTManageLSOs "If you clear your cookie history in Firefox 5+, LSO's will be deleted as well, regardless of their protection status in BetterPrivacy">
+<!ENTITY ManageLSOs "Prevent the Firefox 'Clear Recent History' functions from handling LSO's as usual cookies">
+<!ENTITY ReEnableWarnings "Click here to re-enable warnings">
+

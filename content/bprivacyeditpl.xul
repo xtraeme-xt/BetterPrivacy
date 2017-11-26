@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://bprivacy/skin/overlay.css" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://bprivacy/locale/bprivacy.dtd">
+
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+title="&proteditor;"
+id="bpEditPL"
+onload="bprivacyopt.initPL(); this.focus();"
+onclose="bprivacyopt.acceptPL();"
+persist="width, height, screenX, screenY"
+buttons=","
+>
+
+
+        <stringbundleset>
+                <stringbundle id="bprivacy.strBundle" src="chrome://bprivacy/locale/bprivacy.properties"/>
+        </stringbundleset>
+
+
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacyutils.js"/>
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacy.js"/>
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacyopt.js"/>
+
+        <script type="application/x-javascript">
+          <![CDATA[
+
+          ]]>
+        </script>
+
+
+<vbox flex="1">
+        <vbox flex="1">
+                <hbox flex="1">
+                        <vbox flex="1">
+                                <textbox id="listTextbox" oninput="bprivacyopt.listTextboxOnInput (event)"/>
+                                <listbox id="listBox" allowevents="true" onselect="bprivacyopt.listBoxOnSelect (event)" flex="1">
+                                <listhead>
+                                        <listheader label="&ListFolder;"/>
+                                </listhead>
+                                <listcols>
+                                        <listcol flex="1"/>
+                                        <listcol/>
+                                </listcols>
+                                </listbox>
+
+                        </vbox>
+                        <vbox>
+                                <button id="listAdd" label="&ListAdd;" disabled="true"
+                                        oncommand="bprivacyopt.listAddOnCommand (event)"/>
+                                <button id="listEdit" label="&ListEdit;" flex="0" disabled="true"
+                                        oncommand="bprivacyopt.listEditOnCommand (event)"/>
+                                <button id="listRemove" label="&ListRemove;" flex="0" disabled="true"
+                                        oncommand="bprivacyopt.listRemoveOnCommand (event)"/>
+         <checkbox id="AutoEscapePref" checked="true" label="&AutoEscape;"/>
+                        </vbox>
+                </hbox>
+        </vbox>
+        <vbox>
+                <spacer orient="vertical" height="5px"/>
+                <hbox pack="end">
+                        <button id="MacAcceptBtn" oncommand="bprivacyopt.acceptPL(); window.close();" label="&Ok;"/>
+                </hbox>
+        </vbox>
+</vbox>
+
+</dialog>

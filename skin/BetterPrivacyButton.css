@@ -1,0 +1,7 @@
+#BetterPrivacyButton{
+  list-style-image: url("chrome://bprivacy/skin/btn_large.png");
+}
+
+toolbar[iconsize="small"] #BetterPrivacyButton {
+  list-style-image: url("chrome://bprivacy/skin/btn_small.png");
+}

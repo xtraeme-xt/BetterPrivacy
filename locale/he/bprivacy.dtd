@@ -1,0 +1,76 @@
+<!ENTITY PrefTitle "BetterPrivacy">
+<!ENTITY LSOcaption "עוגיות פלאש (LSO/סופר עוגיות/SuperCookies): פיסות מידע שתוסף הפלאש ממקם בתיקיות מרכזיות על המחשב, אשר מאריכות חיים לעד">
+<!ENTITY DOMcaption "אחסון DOM  (סופר עוגיות/SuperCookies): מאפשר אחסון כמויות גדולות של מידע. העברת המידע אינה מוגבלת למתחם בודד.">
+<!ENTITY FlashAppFolder "ספריית נתוני-פלאש:">
+<!ENTITY SelectFlashFolder "בחירת ספרייה">
+<!ENTITY SearchFlashFolder "חיפוש ספרייה">
+<!ENTITY LSOViewDescription "הסרת או הגנת LSO מאוחסנות (ההגנה מונעת הסרה אוטומטית ע&quot;י BetterPrivacy  אבל אינה מונעת הסרה ע&quot;י הבעלים שלה!)">
+<!ENTITY TreeFolderCaption "מוצא">
+<!ENTITY TreeFileCaption "שם">
+<!ENTITY TreeSizeCaption "גודל">
+<!ENTITY TreeCreatedCaption "נוצר">
+<!ENTITY TreeModifiedCaption "שונה">
+<!ENTITY TreeProtectCaption "מצב">
+<!ENTITY FullPath "נתיב מלא:">
+<!ENTITY ButtonProtect "מניעת מחיקה אוטומטית של LSO">
+<!ENTITY ButtonEditPL "עריכת רשימת ההגנה">
+<!ENTITY ButtonDelete "הסרת LSO">
+<!ENTITY ButtonDeleteAll "הסרת כל ה-LSO">
+<!ENTITY ButtonReload "רענון תצוגה">
+<!ENTITY Removed "LSO הוסרו אוטומטית">
+<!ENTITY Session "אסופה:">
+<!ENTITY Cumulative "מצטבר:">
+<!ENTITY LSODeletionCaption "על מנת להסיר LSO יש לבחור מהאפשרויות הבאות">
+<!ENTITY DelLSOOnExit "מחיקת עוגיות פלאש כאשר יוצאים מ-Firefox">
+<!ENTITY DelLSONoDialog "הוספת פריט LSO לדו שיח 'ניקיון ההיסטוריה' וההגדרות של Firefox">
+<!ENTITY DelLSOOnStart "מחיקת עוגיות הפלאש כאשר היישום מתחיל">
+<!ENTITY AskOnExit "לשאול תמיד">
+<!ENTITY AutoDelInterval "מחיקת עוגיות פלאש באמצעות קוצב זמן">
+<!ENTITY TimeInterval "מרווח זמן:">
+<!ENTITY AutoDelDC "הסרת עוגיות ברירת המחדל של Flashplayer גם כן. זה מאחסן הגדרות Flashplayer (כגון מרווחי עדכון) כמו כן, גם את כל אתרי הפלאש שביקרו בהם!">
+<!ENTITY AutoDelIntervalDelay "לא אם מוגדר בתוך מרווחי זמן">
+<!ENTITY AutoDelDirs "בעת מחיקת עוגייה, למחוק גם את תיקיות העוגייה הריקות">
+<!ENTITY NotifyOnNewLSO "הודעה כאשר LSO חדשה מאוחסנת">
+<!ENTITY NotifyDuration "הסרה אוטומטית של הודעה לאחר [ש]">
+<!ENTITY TrackLSOs "הצגת שמות של LSO חדשים">
+<!ENTITY TTTNotifyDuration "0=לעולם לא להסיר אוטומטית">
+<!ENTITY DisableDOM "נטרול DOMStorage">
+<!ENTITY ClearDOM "מחיקה אוטומטית של קובץ DOMStorage">
+<!ENTITY PingDecription "לחיצת-פינגים מאפשרת לשרת לעקוב בקלות אחר פעולות המשתמש.">
+<!ENTITY DisablePing "נטרול מעקב פינג (Ping)">
+<!ENTITY Tab1Title "מנהל LSO">
+<!ENTITY Tab2Title "אפשרויות ועזרה">
+<!ENTITY ListAdd "הוספה">
+<!ENTITY ListEdit "עריכה">
+<!ENTITY ListRemove "הסרה">
+<!ENTITY ListFolder "תיקייה">
+<!ENTITY alwaysReScan "מצב נייד">
+<!ENTITY Ok "אישור">
+<!ENTITY seconds "שניות">
+<!ENTITY minutes "דקות">
+<!ENTITY hours "שעות">
+<!ENTITY days "ימים">
+<!ENTITY exitstatus "Firefox  ייסגר כעת. בבקשה להמתין בעת ש-BetterPrivacy  בודק את הכונן הקשיח עבור עוגיות LSO...">
+<!ENTITY LSODelKey "קיצור דרך מחיקת LSO:">
+<!ENTITY propagate "הוספת BetterPrivacy אל סוכן משתמש אקסטרה ומסייע כדי להפוך לידוע למשתמשים שעדיין לא מוגנים">
+<!ENTITY RestartRequired "(השינויים דורשים אתחול של Firefox)">
+<!ENTITY Help "עזרה">
+<!ENTITY TTTalwaysReScan "חיפוש תיקיית מידע הפלאש בכל התחלת Firefox ושימוש במיקומי תיקייה יחסיים/קרובים">
+<!ENTITY TTTButtonDeleteAll "בקשת התר גם למחיקת עוגיות מוגנות">
+<!ENTITY TTTAutoDelDC "עוגיית ברירת המחדל מכונה כברירת מחדל settings.sol, ממוקמת ב-\Flash Player\macromedia.com\support\flashplayer\sys\">
+<!ENTITY TTTDisableDOM "מנטרל איחסון DOM לחלוטין">
+<!ENTITY TTTClearDOM "מנסה להסיר את קובץ אחסון ה-DOM  בתחילת ויציאת Firefox">
+<!ENTITY TTTTrackLSOs "זיהוי LSO חדשים על ידי זמן השינוי שלהם (זמן יצירה איננו זמין ב- Firefox)">
+<!ENTITY TTTButtonReload "רענון טבלת LSO">
+<!ENTITY TTTLSODelKey "על מנת לשנות את הגדרת המפתח צריך לערוך את המפתח edit extensions.bprivacy.keymodifiers דרך ה- about:config">
+<!ENTITY TTTpropagate "תמיכה בהתרחבות של סייעני פרטיות דרך אפשרות ה-useragent.extra של Firefox">
+<!ENTITY help.key "ע">
+<!ENTITY proteditor "עורך רשימת הגנת LSO עבור Better Privacy">
+<!ENTITY ClickPing "לחיצת-פינג">
+<!ENTITY TTTAutoProtectSub "If you protect a LSO, this automatically excludes sub-folder LSO's  from deletion (e.g. to protect any LSO's of the same domain -or- to protect any settings LSO's, regardless of their domain)">
+<!ENTITY AutoProtectSub "Auto protect LSO sub-folders">        
+<!ENTITY AutoEscape "Auto escape metacharacters">      
+<!ENTITY TTTManageLSOs "If you clear your cookie history in Firefox 5+, LSO's will be deleted as well, regardless of their protection status in BetterPrivacy">
+<!ENTITY ManageLSOs "Prevent the Firefox 'Clear Recent History' functions from handling LSO's as usual cookies"> 
+<!ENTITY ReEnableWarnings "Click here to re-enable warnings">
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+
+
+<overlay id="bprivacy-extensions-overlay"
+   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacyutils.js"/>
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacy.js"/>
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacyopt.js"/>
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacysanitizer.js"/>
+
+   <script type="application/x-javascript">
+   <![CDATA[
+      window.addEventListener("load", function(aEvent) {
+        aEvent.currentTarget.removeEventListener("load", arguments.callee, false);
+        bprivacy.init();
+        bprivacy.extopened();
+      }, false);
+   ]]>
+   </script>
+
+
+</overlay>

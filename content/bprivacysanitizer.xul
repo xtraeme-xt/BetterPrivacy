@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://bprivacy/locale/bprivacy.dtd">
+
+
+ <overlay id="bpsanitizer" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacyutils.js"/>
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacy.js"/>
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacyopt.js"/>
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacysanitizer.js"/>
+
+   <script type="application/x-javascript">
+       <![CDATA[
+          window.addEventListener("load", function(aEvent) {
+            bprivacy.init();
+            bprivacy.initSanitize();
+          }, true);
+       ]]>
+   </script>
+
+ </overlay>

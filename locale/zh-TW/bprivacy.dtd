@@ -1,0 +1,76 @@
+<!ENTITY PrefTitle "BetterPrivacy">
+<!ENTITY LSOcaption "Flash Cookies (LSO's/SuperCookies)：由Flash外掛產生的資料，永存於使用者電腦的核心資料夾裡。">
+<!ENTITY DOMcaption "DOM Storage (SuperCookies)：允許儲存大量的數據。數據傳輸並不局限於單一網域。">
+<!ENTITY FlashAppFolder "Flash儲存資料目錄：">
+<!ENTITY SelectFlashFolder "選擇資料夾">
+<!ENTITY SearchFlashFolder "尋找目錄">
+<!ENTITY LSOViewDescription "刪除或保護已儲存的LSO(保護防止BetterPrivacy的自動刪除動作，但是不保護LSO擁有者的刪除動作)">
+<!ENTITY TreeFolderCaption "原創">
+<!ENTITY TreeFileCaption "名稱">
+<!ENTITY TreeSizeCaption "大小">
+<!ENTITY TreeCreatedCaption "製作">
+<!ENTITY TreeModifiedCaption "修改">
+<!ENTITY TreeProtectCaption "狀態">
+<!ENTITY FullPath "路徑：">
+<!ENTITY ButtonProtect "防止自動刪除LSO">
+<!ENTITY ButtonEditPL "編輯保護列表">
+<!ENTITY ButtonDelete "刪除LSO">
+<!ENTITY ButtonDeleteAll "刪除所有LSOs">
+<!ENTITY ButtonReload "重新載入畫面">
+<!ENTITY Removed "自動刪除LSO">
+<!ENTITY Session "Session:">
+<!ENTITY Cumulative "累計：">
+<!ENTITY LSODeletionCaption "由以下的項目選擇是否刪除LSO">
+<!ENTITY DelLSOOnExit "當Firefox關閉時刪除Flash cookies">
+<!ENTITY DelLSONoDialog "增加&quot;LSO項目&quot;至&quot;清除歷史紀錄&quot;">
+<!ENTITY DelLSOOnStart "當應用程式啟動時，刪除Flash cookie">
+<!ENTITY AskOnExit "每次都詢問">
+<!ENTITY AutoDelInterval "依時限刪除Flash cookies">
+<!ENTITY TimeInterval "時間間隔：">
+<!ENTITY AutoDelDC "同時刪除&quot;Flashplayer預設的cookie&quot;。預設的cookie儲存著Flashplayer的設定(例如：更新間隔)以及所有訪問過的flash網站！">
+<!ENTITY AutoDelIntervalDelay "不包含在修改時間間隔的時候">
+<!ENTITY AutoDelDirs "刪除cookie時，同時刪除空的cookie資料夾">
+<!ENTITY NotifyOnNewLSO "當儲存新的LSO時，提醒使用者">
+<!ENTITY NotifyDuration "在多少秒後提示訊息消失：">
+<!ENTITY TrackLSOs "顯示新的LSO名稱">
+<!ENTITY TTTNotifyDuration "0=絕不自動刪除">
+<!ENTITY DisableDOM "禁用DOMStorage">
+<!ENTITY ClearDOM "自動刪除DOMStorage檔案">
+<!ENTITY PingDecription "Click-Pings 可以使服務器追蹤使用者動作更為輕鬆。">
+<!ENTITY DisablePing "禁用偵測回應追蹤(Ping Tracking)">
+<!ENTITY Tab1Title "LSO管理員">
+<!ENTITY Tab2Title "選項 &amp; 幫助">
+<!ENTITY ListAdd "新增">
+<!ENTITY ListEdit "編輯">
+<!ENTITY ListRemove "刪除">
+<!ENTITY ListFolder "資料夾">
+<!ENTITY alwaysReScan "隨身模式(可攜式)">
+<!ENTITY Ok "確定">
+<!ENTITY seconds "秒">
+<!ENTITY minutes "分">
+<!ENTITY hours "時">
+<!ENTITY days "天">
+<!ENTITY exitstatus "Firefox即將要關閉。請等待BetterPrivacy檢查硬碟中的LSO cookies......">
+<!ENTITY LSODelKey "刪除LSO的快捷鍵：">
+<!ENTITY propagate "新增BetterPrivacy至useragent extra並且讓未受保護的使用者了解有這樣一個軟體">
+<!ENTITY RestartRequired "(修改後啟用需要重啟Firefox)">
+<!ENTITY Help "幫助">
+<!ENTITY TTTalwaysReScan "每次啟動Firefox時，搜尋Flash資料夾並且使用相對資料夾位置">
+<!ENTITY TTTButtonDeleteAll "詢問是否同時刪除被保護的cookies">
+<!ENTITY TTTAutoDelDC "預設cookie名稱為settings.sol，位於 \Flash Player\macromedia.com\support\flashplayer\sys\">
+<!ENTITY TTTDisableDOM "完整禁用DOM storage">
+<!ENTITY TTTClearDOM "在Firefox啟動與結束時，嘗試刪除DOM storage檔案">
+<!ENTITY TTTTrackLSOs "由變更的時間來確認新的LSO(創建的時間在Firefox不能使用)">
+<!ENTITY TTTButtonReload "重載LSO表格">
+<!ENTITY TTTLSODelKey "可以藉著編輯about:config中的extensions.bprivacy.keymodifiers來修改快捷鍵">
+<!ENTITY TTTpropagate "透過Firefox的useragent.extra功能，幫助宣傳隱私協助者">
+<!ENTITY help.key "h">
+<!ENTITY proteditor "Better Privacy LSO 保護列表編輯器">
+<!ENTITY ClickPing "Click-Ping">
+<!ENTITY TTTAutoProtectSub "If you protect a LSO, this automatically excludes sub-folder LSO's  from deletion (e.g. to protect any LSO's of the same domain -or- to protect any settings LSO's, regardless of their domain)">
+<!ENTITY AutoProtectSub "Auto protect LSO sub-folders">
+<!ENTITY AutoEscape "Auto escape metacharacters">
+<!ENTITY TTTManageLSOs "If you clear your cookie history in Firefox 5+, LSO's will be deleted as well, regardless of their protection status in BetterPrivacy">
+<!ENTITY ManageLSOs "Prevent the Firefox 'Clear Recent History' functions from handling LSO's as usual cookies">
+<!ENTITY ReEnableWarnings "Click here to re-enable warnings">
+

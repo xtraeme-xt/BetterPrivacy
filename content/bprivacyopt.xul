@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://bprivacy/locale/bprivacy.dtd">
+
+
+
+
+
+<prefwindow xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+id="bpPrefsWinID"
+title="&PrefTitle;"
+buttons=","
+ondialogaccept=""
+onload="bprivacyopt.onLoad(); this.focus();"
+onclose="bprivacyopt.accept(false);"
+persist="width, height, screenX, screenY"
+onkeypress="return bprivacy.WindowOnEnter(event);"
+
+>
+
+
+    <stringbundleset>
+        <stringbundle id="bprivacy.strBundle" src="chrome://bprivacy/locale/bprivacy.properties"/>
+    </stringbundleset>
+
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacyutils.js"/>
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacy.js"/>
+        <script type="application/x-javascript" src="chrome://bprivacy/content/bprivacyopt.js"/>
+
+
+
+    <prefpane id="bprivacy-prefpane" label="&PrefTitle;" flex="1">
+        <preferences>
+            <preference id="flashAppDir" name="extensions.bprivacy.DataDir" type="file" />
+            <preference id="RemovedLSOs" name="extensions.bprivacy.removed" type="int" />
+            <preference id="RemovedLSOsSession" name="extensions.bprivacy.removedSession" type="int" />
+            <preference id="AutoDelLSOOnStart" name="extensions.bprivacy.AutoDelLSOnStart" type="bool"/>
+            <preference id="AutoDelLSOnExitMode" name="extensions.bprivacy.AutoDelLSOnExitMode" type="int"/>
+            <preference id="AutoDelInterval" name="extensions.bprivacy.useDelTimer" type="bool"/>
+            <preference id="AutoDelIntervalDelay" name="extensions.bprivacy.useDelTimerDelay" type="bool"/>
+            <preference id="AutoDelDirs" name="extensions.bprivacy.delDirs" type="bool"/>
+            <preference id="AutoDelDC" name="extensions.bprivacy.DefaultFlashCookieDeletion" type="bool"/>
+            <preference id="ClearDOM" name="extensions.bprivacy.domclear" type="bool"/>
+            <preference id="DisablePing" name="extensions.bprivacy.sendpings.allowed" type="bool" inverted="true"/>
+            <preference id="DontAskOnExit" name="extensions.bprivacy.donotaskonexit" type="bool" inverted="true"/>
+            <preference id="alwaysReScan" name="extensions.bprivacy.alwaysReScan" type="bool"/>
+            <preference id="NotifyOnNewLSO" name="extensions.bprivacy.NotifyOnNewLSO" type="int"/>
+            <preference id="NotifyDuration" name="extensions.bprivacy.NotifyDuration" type="int" />
+            <preference id="AutoProtectSub" name="extensions.bprivacy.autosubfolders" type="bool"/>
+            <preference id="ManageLSOs" name="extensions.bprivacy.manageLSOs" type="bool" />
+        </preferences>
+
+
+    <tabbox id="tabbox" flex="1" oncommand="if ( bprivacyopt.accept(true) ) bprivacy.ReloadLsos();">
+        <tabs id="tabs">
+            <tab id="tab1" label="&Tab1Title;"/>
+            <tab id="tab2" label="&Tab2Title;"/>
+        </tabs>
+        <tabpanels id="tabpanels" flex="1">
+        <tabpanel id="tabpanel1" flex="1" orient="vertical" style="overflow:auto;">
+        <groupbox id="FlashDirectory" flex="1">
+        <caption label="&LSOcaption;" />
+            <vbox>
+                <hbox>
+                    <label value="&FlashAppFolder;" style="width: 120px;"/>
+                    <textbox id="appdir" onkeypress="return bprivacy.changeAppDir(event);" flex="1"/>
+                    <button id="selectFolderID" label="&SelectFlashFolder;" oncommand="bprivacy.changeAppDir(null);"/>
+                    <button id="searchFolderID" label="&SearchFlashFolder;" oncommand="bprivacy.searchDir();"/>
+                </hbox>
+            </vbox>
+            <description id="lsoinfo" style="font-weight: bold;"/>
+
+            <spacer orient="vertical" height="5px"/>
+
+            <vbox flex="1">
+                <hbox align="center">
+                    <label value="&LSOViewDescription;"/>
+                    <spacer orient="horizontal" width="5px" flex="1"/>
+                    <button id="reloadLsos" label="&ButtonReload;" oncommand="bprivacy.ReloadLsos();" tooltiptext="&TTTButtonReload;" style="min-width: 185px !important; max-width: 185px !important;"/>
+                </hbox>
+                <separator class="thin"/>
+                <tree id="LSOViewerTree" flex="1" seltype="single" sortDirection="ascending" hidecolumnpicker="true" enableColumnDrag="true" onkeyup="bprivacyopt.keyDelCookie(event);" onselect="bprivacy.TreeOnSelect(bprivacy.GetFlashDir(0));" ondblclick="bprivacy.ToggleLSOProtection();">
+                    <treecols>
+                        <treecol id="ident" label="&TreeFolderCaption;" persist="width" onmouseup="bprivacy.SortLSOView(this.id);" flex="2"/>
+                        <splitter class="tree-splitter"/>
+                        <treecol id="name" label="&TreeFileCaption;" persist="width" onmouseup="bprivacy.SortLSOView(this.id);" flex="1"/>
+                        <splitter class="tree-splitter"/>
+                        <treecol id="size" label="&TreeSizeCaption;" persist="width" onmouseup="bprivacy.SortLSOView(this.id);" flex="1"/>
+                        <splitter class="tree-splitter"/>
+                        <treecol id="modified" label="&TreeModifiedCaption;" persist="width" onmouseup="bprivacy.SortLSOView(this.id);" flex="1"/>
+                        <splitter class="tree-splitter"/>
+                        <treecol id="prot" label="&TreeProtectCaption;" persist="width" onmouseup="bprivacy.SortLSOView(this.id);" flex="1"/>
+                    </treecols>
+                    <treechildren flex="1"/>
+                </tree>
+                <spacer orient="vertical" height="5px"/>
+                <hbox pack="start">
+                    <label value="&FullPath;" style="font-size:110%;"/>
+                    <textbox flex="1" id="FullPathID" readonly="true" class="plain" style="padding: 2px !important; margin: 0px !important; border-top: 1px solid #fbfbfb !important; border-left: 1px solid #fbfbfb !important; border-right: 1px solid #bfbfbf !important; border-bottom: 1px solid #e8e8e8 !important;"/>
+                    <spacer orient="horizontal" width="5px"/>
+                </hbox>
+                <spacer orient="vertical" height="5px"/>
+
+
+                <hbox pack="end" align="center">
+                    <description id="tip" style="font-weight: bold;"/>
+                    <spacer orient="horizontal" flex="1" width="5px"/>
+                    <button id="protectLsoDir" disabled="true" label="&ButtonProtect;" oncommand="bprivacy.ToggleLSOProtection();"/>
+                    <button id="EditPLBtn" label="&ButtonEditPL;" oncommand="bprivacyopt.EditPL();"/>
+                    <spacer orient="horizontal" width="15px"/>
+                    <button id="removeLso" disabled="true" label="&ButtonDelete;" oncommand="bprivacy.DeleteLso();"/>
+                    <button id="removeAllLsos" disabled="true" label="&ButtonDeleteAll;" oncommand="bprivacy.DeleteAllLsos();" tooltiptext="&TTTButtonDeleteAll;"/>
+                </hbox>
+            </vbox>
+        </groupbox>
+
+        <box align="center" pack="end" orient="horizontal">
+            <label value="&Removed;"/>
+            <spacer orient="horizontal" width="5px"/>
+            <label id="SessionLabelID" value="&Session;"/>
+            <textbox id="lso_removedSession" preference="RemovedLSOsSession" readonly="true" maxlength="3"/>
+            <spacer orient="horizontal" width="5px"/>
+            <label value="&Cumulative;"/>
+            <textbox id="lso_removed" preference="RemovedLSOs" readonly="true" maxlength="9"/>
+            <spacer orient="horizontal" width="10px"/>
+            <button id="MacAcceptBtn" label="Ok" oncommand="bprivacyopt.accept(false); window.close();"/>
+        </box>
+        </tabpanel>
+
+
+
+
+
+        <tabpanel id="tabpanel2" orient="vertical" flex="1" style="overflow:auto;">
+        <description id="optionsinfo" style="display: none; font-weight: bold;"></description>
+        <groupbox id="FlashDirectory">
+        <caption label="&LSOcaption;" />
+            <vbox flex="1">
+                <separator class="thin"/>
+            </vbox>
+            <vbox flex="1">
+        <groupbox id="LSODeletionID">
+        <caption id="LSODeletionCaptionID" label="&LSODeletionCaption;" />
+                <radiogroup  id="AutoDelLSOnExitModeID" orient="horizontal">
+                  <radio id="DelLSOOnExit" value="0" label="&DelLSOOnExit;" oncommand="bprivacyopt.AutoDelLSOToggled();bprivacyopt.savePrefs();"/>
+                  <radio id="DelLSONoDialog" value="1" label="&DelLSONoDialog;" oncommand="bprivacyopt.AutoDelLSOToggled();bprivacyopt.savePrefs();"/>
+                </radiogroup>
+                <hbox>
+                    <spacer orient="horizontal" width="20px"/>
+                    <checkbox id="DontAskOnExitPref" preference="DontAskOnExit" label="&AskOnExit;" oncommand="bprivacyopt.savePrefs();"/>
+                </hbox>
+                <checkbox id="AutoDelLSOOnStartPref" preference="AutoDelLSOOnStart" label="&DelLSOOnStart;" oncommand="bprivacyopt.savePrefs();"/>
+                <hbox align="center">
+                  <checkbox id="AutoDelIntervalPref" preference="AutoDelInterval" label="&AutoDelInterval;" oncommand="bprivacyopt.AutoIntervalToggled();bprivacyopt.savePrefs();"/>
+                  <checkbox id="AutoDelIntervalDelayPref" preference="AutoDelIntervalDelay" label="&AutoDelIntervalDelay;" oncommand="bprivacyopt.savePrefs();"/>
+                    <label id="delIntervallabel" value="&TimeInterval;"/>
+                        <textbox id="delInterval" type="number" min="1" max="999999" style="width: 50px;" onchange="bprivacyopt.DelIntervalToggled();bprivacyopt.savePrefs();"/>
+                        <menulist id="unitList" label="Unit" oncommand="bprivacyopt.DelIntervalToggled();bprivacyopt.savePrefs();">
+                              <menupopup>
+                                    <menuitem label="&seconds;"/>
+                                    <menuitem label="&minutes;"/>
+                                    <menuitem label="&hours;" selected="true"/>
+                                    <menuitem label="&days;"/>
+                              </menupopup>
+                        </menulist>
+                </hbox>
+
+
+            <hbox align="center">
+                <label tooltiptext="&TTTLSODelKey;">&LSODelKey;</label>
+                <label id="KeyCodeLabel" value="" tooltiptext="&TTTLSODelKey;"/>
+                <textbox id="KeyCodeBox" checkInput="true" inputType="char" size="3" onkeydown="this.value = '';" tooltiptext="&TTTLSODelKey;"/>
+                <label tooltiptext="&TTTLSODelKey;">&RestartRequired;</label>
+            </hbox>
+        </groupbox>
+
+                <checkbox id="AutoDelDCPref" preference="AutoDelDC" label="&AutoDelDC;" tooltiptext="&TTTAutoDelDC;" oncommand="bprivacyopt.savePrefs();"/>
+                <checkbox id="AutoDelDirsPref" preference="AutoDelDirs" label="&AutoDelDirs;"/>
+                <hbox align="center">
+                  <checkbox id="NotifyOnNewLSOPref" preference="NotifyOnNewLSO" label="&NotifyOnNewLSO;" oncommand="bprivacyopt.NotifyOnNewLSOToggled(true);bprivacyopt.savePrefs();"/>
+                    <spacer orient="horizontal" width="5px"/>
+                    <label value="&NotifyDuration;" tooltiptext="&TTTNotifyDuration;"/>
+                    <textbox id="NotifyDurationID" type="number" min="0" max="300" preference="NotifyDuration" maxlength="3" tooltiptext="&TTTNotifyDuration;" style="width: 50px;"/>
+                </hbox>
+                <checkbox id="AutoProtectSubPref" preference="AutoProtectSub" label="&AutoProtectSub;" tooltiptext="&TTTAutoProtectSub;" oncommand="bprivacyopt.savePrefs();"/>
+                <separator class="thin"/>
+            </vbox>
+        </groupbox>
+
+
+
+        <groupbox id="DOMStorage" hidden="true">
+        <caption label="&DOMcaption;" />
+            <vbox flex="1">
+                <separator class="thin"/>
+                <hbox align="center">
+                    <checkbox id="ClearDOMPref" preference="ClearDOM" label="&ClearDOM;" tooltiptext="&TTTClearDOM;" oncommand="bprivacyopt.savePrefs();"/>
+                </hbox>
+                <separator class="thin"/>
+            </vbox>
+        </groupbox>
+
+
+        <groupbox id="Ping">
+        <caption label="&ClickPing;" />
+            <vbox flex="1">
+                <description>&PingDecription;</description>
+                <separator class="thin"/>
+                <checkbox id="DisablePingPref" preference="DisablePing" label="&DisablePing;" oncommand="bprivacyopt.savePrefs();"/>
+                <separator class="thin"/>
+            </vbox>
+        </groupbox>
+
+        <vbox>
+                <hbox align="center">
+            <checkbox id="ManageLSOsPref" preference="ManageLSOs" label="&ManageLSOs;" tooltiptext="&TTTManageLSOs;"  hidden="false" oncommand="bprivacyopt.ManageLSOsToggled();bprivacyopt.savePrefs();"/>
+                      <spacer orient="horizontal" width="5px"/>
+            <label id="ReEnableWarningsPref" value="&ReEnableWarnings;" hidden="true" onclick="bprivacyopt.ReEnableWarningsToggled();bprivacyopt.savePrefs();"/>
+                </hbox>
+
+            <checkbox id="alwaysReScanPref" preference="alwaysReScan" label="&alwaysReScan;" oncommand="bprivacyopt.AlwaysReScanToggled(true);bprivacyopt.savePrefs();" tooltiptext="&TTTalwaysReScan;"/>
+        </vbox>
+
+
+        <spacer orient="vertical" height="5px" flex="1"/>
+        <box align="center" pack="end" orient="horizontal">
+            <button id="MacHelpBtn" oncommand="bprivacy.openHelp('chrome://bprivacy/content/BetterPrivacy.html');" label="&Help;" accesskey="&help.key;"/>
+            <button id="MacAcceptBtn" oncommand="bprivacyopt.accept(false); window.close();" label="&Ok;"/>
+        </box>
+
+        </tabpanel>
+        </tabpanels>
+    </tabbox>
+
+    </prefpane>
+
+
+</prefwindow>

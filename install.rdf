@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#" xmlns:NC="http://home.netscape.com/NC-rdf#" xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+  <!--Firefox-->
+  <RDF:Description RDF:about="rdf:#$QKbAc1" em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}" em:minVersion="49.0" em:maxVersion="51.*"/>
+
+  <RDF:Description RDF:about="urn:mozilla:install-manifest" em:id="{d40f5e7b-d2cf-4856-b441-cc613eeffbe3}" em:name="BetterPrivacy" em:version="1.77" em:type="2" em:creator="Greg Yardley (version 0.2) www.yardley.ca" em:description="&quot;Super-Cookie Safeguard&quot;" em:homepageURL="https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/" em:iconURL="chrome://bprivacy/content/pie.png" em:developer="Ikrg" em:contributor="Icon: Lint Hasenpfeffer (concept by Evan Eckard), Code improvements: Ximin Luo, Locales: DE by Endor and others by BabelZilla team" em:optionsURL="chrome://bprivacy/content/bprivacyopt.xul">
+    <em:targetApplication RDF:resource="rdf:#$QKbAc1"/>
+    <em:multiprocessCompatible>true</em:multiprocessCompatible>
+  </RDF:Description>
+
+</RDF:RDF>
